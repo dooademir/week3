@@ -1,0 +1,73 @@
+
+        *{
+            margin: 10;
+            padding: 10;
+        }
+        body {
+            width: 100%;
+            background-color:white;
+            
+        } 
+       
+        h1 { 
+        text-align: center;
+        color: darkgoldenrod;
+        border: 2px darkblue solid
+        }
+        
+        h2 {
+        background-color: aquamarine;
+        color: blue;
+        margin: 10 
+        } 
+
+        h3 {
+        color: aqua;
+        }
+        
+        .orta {
+            font-size: 16;
+            background-color:aquamarine ;
+            text-align: center;
+            color: black;
+            font-style: italic;
+            font-family: "Workbench", sans-serif;
+            
+        }
+
+        .baslık {
+        font-size: 80px;
+        text-align: left;
+        }
+
+        .forty{ 
+        width: 400px;
+        font-size: 45px;
+        text-align: center;
+        }
+
+        #denemeanabaslik{
+        background-color: antiquewhite;
+        text-align: center; color: black; 
+        font-size: 50px; 
+        font-family:Arial, Helvetica, sans-serif;
+        font-style: italic;
+    position: fixed;}
+
+        #image{
+            width: 50%; 
+            border: 5px black solid;
+        }
+
+        .links {
+            border: 1px solid;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .login {
+            margin-left: 20px;
+        }
+        .menu {
+            display:flex ;
+            justify-content: space-between;
+        }
