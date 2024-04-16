@@ -2,12 +2,19 @@
         *{
             margin: 10;
             padding: 10;
+            box-sizing: border-box;
         }
         body {
             width: 100%;
             background-color:white;
             
         } 
+
+        .menu-container {
+            color: #fff;
+            background-color: rgb(177, 197, 197);
+            padding: 20px;
+        }
        
         h1 { 
         text-align: center;
@@ -16,18 +23,18 @@
         }
         
         h2 {
-        background-color: aquamarine;
+        background-color: rgb(67, 94, 146);
         color: blue;
         margin: 10 
         } 
 
         h3 {
-        color: aqua;
+        color: rgb(30, 58, 58);
         }
         
         .orta {
             font-size: 16;
-            background-color:aquamarine ;
+            background-color:rgb(70, 100, 90) ;
             text-align: center;
             color: black;
             font-style: italic;
@@ -52,12 +59,13 @@
         font-size: 50px; 
         font-family:Arial, Helvetica, sans-serif;
         font-style: italic;
-    position: fixed;}
+    position: fixed;
+}
 
         #image{
             width: 50%; 
             border: 5px rgb(0, 0, 0) solid;
-            scale: 0.5;
+            
         }
 
         .links {
@@ -72,3 +80,51 @@
             display:flex ;
             justify-content: space-between;
         }
+
+
+        .flex-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 300px;
+        }
+
+        .flex-item {
+            flex: 1;
+            align-self: center;
+            order: 2;
+            text-align: center;
+        }
+        
+       .header-container {
+        color: rgb(170, 170, 137);
+        background-color: rgb(225, 240, 159);
+        display: flex;
+        justify-content: center;
+       }
+       
+       .header {
+        width: 900px;
+        height: 150px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
+
+       .photo-grid-container {
+        display:flex;
+        justify-content: center;
+       }
+
+       .photo-grid {
+        width: 900px;
+        display: flex;
+        justify-content:center;
+        flex-wrap: wrap;
+       }
+       .photo-grid-item {
+        border: 1px solid #fff;
+        width: 300px;
+        height: 300px;
+       }
