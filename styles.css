@@ -99,14 +99,15 @@
         
        .header-container {
         color: rgb(170, 170, 137);
-        background-color: rgb(255, 255, 255);
+        background-color:rgb(213, 206, 187);
         display: flex;
         justify-content: center;
+
         
        }
        
        .header {
-        background-color: #fff;
+        background-color:rgb(255, 255, 255);
         width: 1500px;
         height: 100px;
         display: flex;
