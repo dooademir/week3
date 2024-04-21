@@ -142,7 +142,7 @@
        }
 
        .logo {
-        scale: 50%;
+        scale: 70%;
         justify-content: center;
        }
 
@@ -174,7 +174,72 @@
     text-align: center;
 }
 
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #1a1a1a;
+    padding: 15px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+  }
+  .navbar a{
+    text-decoration: none;
+    color: #fff;
+  }
+  .logo{
+    margin-left: 30px;
+    font-weight: 500;
+  }
+  .list{
+    list-style: none;
+    display: flex;
+    gap:30px;
+    color: #fff;
+    margin-right: 30px;
+  }
+  
+  #toggler,.navbar label{
+    color: #ffffff;
+    display: none;
+  }
+  
+  @media screen and
+  (max-width: 600px){
+    .menu{
+      width: 100%;
+      max-height: 0;
+      overflow: hidden;
+    }
+    .logoo{
+      margin-left: 0px;
+      scale: 0.6;
+    }
+    .list{
+      flex-direction: column;
+      align-items: center;
+      padding: 20px;
+    }
+    .navbar label{
+      display: inline-flex;
+      align-items: center;
+      cursor: pointer;
+    }
+    #toggler:checked ~ .menu{
+      max-height: 100%;
+    }
+  }
 
-
+  address {
+    display: block;
+    font-style: italic;
+    text-align: center;
+  }
 
    
+
+
+
+
+  
