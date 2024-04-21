@@ -89,7 +89,14 @@
             align-items: center;
             height: 300px;
         }
-
+        .flex-container2 {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            height: 200px;
+            text-align: center;
+        }
         .flex-item {
             flex: 1;
             align-self: center;
@@ -154,5 +161,20 @@
         justify-content:wrap;
         align-content: center;
         
-        
        }
+
+       .box {
+        text-align: center;
+        box-shadow: inset;
+        justify-content: center;
+        flex: auto;
+       }
+
+.centerfooter {
+    text-align: center;
+}
+
+
+
+
+   
